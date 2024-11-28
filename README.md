@@ -1,50 +1,45 @@
-# Pokedex Projekt
+# Shopping List Application
 
-## Beschreibung
-Dieses Projekt ist ein interaktives Pokedex, das die ersten 151 Pokémon der ersten Generation anzeigt. Die Anwendung ermöglicht es, Informationen über jedes Pokémon abzurufen, darunter Typen, Größe, Gewicht und Bilder. Das Pokedex ist in JavaScript erstellt und nutzt die [PokéAPI](https://pokeapi.co) für die Pokémon-Daten.
+## Overview
+
+This is a simple shopping list application that allows users to create shopping lists, add, edit, and remove items. The application was built with HTML, CSS, and JavaScript and provides a user-friendly interface to simplify shopping planning.
 
 ## Features
-- Anzeige der ersten 151 Pokémon mit Bild, Name und Typen.
-- Möglichkeit, auf ein Pokémon zu klicken, um detaillierte Informationen zu erhalten.
-- Popup-Fenster mit detaillierten Informationen, einschließlich der Typen, Größe und Gewicht.
-- Caching der Pokémon-Daten, um unnötige API-Abfragen zu vermeiden und die Ladezeit zu verkürzen.
 
-## Technologien
-- **HTML, CSS**: Für das Layout und die Gestaltung der Benutzeroberfläche.
-- **JavaScript**: Hauptsächlich für die Logik, Datenverarbeitung und die Interaktion mit der API.
-- **PokéAPI**: Eine kostenlose API, die Informationen zu allen Pokémon bereitstellt.
+- **Add Items**: Add new items to your shopping list.
+- **Edit Items**: Edit existing items in the list to update quantities or descriptions.
+- **Remove Items**: Remove items that are no longer needed.
+- **Display List**: All added items are displayed in a clear list.
 
 ## Installation
-1. **Klonen des Repositories**
-   ```bash
+
+To run the application locally, follow these steps:
+
+1. Download the files or clone the repository.
+   ```
    git clone <repository-url>
    ```
-2. **In das Verzeichnis wechseln**
-   ```bash
-   cd pokedex-projekt
-   ```
-3. **Starten**
-   Öffne die `index.html` Datei im Browser, um das Pokedex zu sehen.
+2. Open the `index.html` file in a web browser.
 
-## Verwendung
-- **Pokémon ansehen**: Alle Pokémon der ersten Generation werden in einer Liste dargestellt.
-- **Mehr Details abrufen**: Klicke auf ein Pokémon, um weitere Informationen anzuzeigen. Ein Popup zeigt zusätzliche Details wie Typen, Größe und Gewicht.
-- **Popup schließen**: Benutze den "Close"-Button, um das Popup zu schließen.
+The application is client-side and requires no additional backend configuration.
 
-## Caching
-Um die Effizienz zu erhöhen, speichert das Pokedex die bereits abgerufenen Pokémon-Daten im Cache. Das bedeutet, dass wenn ein Pokémon bereits einmal abgerufen wurde, es ohne eine neue Anfrage direkt aus dem Cache geladen wird.
+## Technologies Used
 
-## API
-Das Projekt nutzt die [PokéAPI](https://pokeapi.co) für die Daten. Dies umfasst die grundlegenden Pokémon-Informationen (Name, URL) sowie detaillierte Daten wie Typen, Größe und Gewicht.
+- **HTML**: For the structure of the user interface.
+- **CSS**: For styling and design.
+- **JavaScript**: For interactivity and shopping list logic.
 
-## Verbesserungsvorschläge
-- **Weitere Generationen hinzufügen**: Aktuell werden nur die ersten 151 Pokémon angezeigt. Es wäre möglich, das Projekt zu erweitern, um auch spätere Generationen einzubeziehen.
-- **Suche und Filter**: Hinzufügen einer Such- oder Filterfunktion, um das Finden eines bestimmten Pokémon zu erleichtern.
-- **Design-Verbesserungen**: Das Layout und das Styling des Pokedex könnten noch verbessert werden, um die Benutzererfahrung zu steigern.
+## Usage
 
-## Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen findest du in der `LICENSE` Datei.
+1. Open the application in your browser.
+2. Enter the name of an item in the input field and click "Add" to add it to the list.
+3. Use the edit and delete buttons to make changes to the list.
 
-## Danksagung
-Ein großes Dankeschön an die Entwickler von [PokéAPI](https://pokeapi.co) für die Bereitstellung der Daten, die dieses Projekt ermöglicht haben.
+## Contributions
+
+Contributions are welcome! If you want to add a new feature or fix a bug, please submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
 
