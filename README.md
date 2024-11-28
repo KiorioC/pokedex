@@ -1,45 +1,50 @@
-# Shopping List Application
+# Pokedex Project
 
-## Overview
-
-This is a simple shopping list application that allows users to create shopping lists, add, edit, and remove items. The application was built with HTML, CSS, and JavaScript and provides a user-friendly interface to simplify shopping planning.
+## Description
+This project is an interactive Pokedex that displays the first 151 Pokémon of the first generation. The application allows users to view information about each Pokémon, including types, size, weight, and images. The Pokedex is built with JavaScript and uses the [PokéAPI](https://pokeapi.co) for Pokémon data.
 
 ## Features
+- Display of the first 151 Pokémon with image, name, and types.
+- Ability to click on a Pokémon to get detailed information.
+- Popup window with detailed information, including types, size, and weight.
+- Caching of Pokémon data to avoid unnecessary API requests and reduce loading time.
 
-- **Add Items**: Add new items to your shopping list.
-- **Edit Items**: Edit existing items in the list to update quantities or descriptions.
-- **Remove Items**: Remove items that are no longer needed.
-- **Display List**: All added items are displayed in a clear list.
+## Technologies
+- **HTML, CSS**: For the layout and styling of the user interface.
+- **JavaScript**: Mainly for logic, data processing, and interaction with the API.
+- **PokéAPI**: A free API that provides information about all Pokémon.
 
 ## Installation
-
-To run the application locally, follow these steps:
-
-1. Download the files or clone the repository.
-   ```
+1. **Clone the repository**
+   ```bash
    git clone <repository-url>
    ```
-2. Open the `index.html` file in a web browser.
-
-The application is client-side and requires no additional backend configuration.
-
-## Technologies Used
-
-- **HTML**: For the structure of the user interface.
-- **CSS**: For styling and design.
-- **JavaScript**: For interactivity and shopping list logic.
+2. **Navigate to the directory**
+   ```bash
+   cd pokedex-project
+   ```
+3. **Start**
+   Open the `index.html` file in your browser to view the Pokedex.
 
 ## Usage
+- **View Pokémon**: All first-generation Pokémon are displayed in a list.
+- **Get more details**: Click on a Pokémon to see more information. A popup will show additional details such as types, size, and weight.
+- **Close popup**: Use the "Close" button to close the popup.
 
-1. Open the application in your browser.
-2. Enter the name of an item in the input field and click "Add" to add it to the list.
-3. Use the edit and delete buttons to make changes to the list.
+## Caching
+To improve efficiency, the Pokedex caches the Pokémon data that has already been fetched. This means that if a Pokémon has been retrieved before, it will be loaded directly from the cache without making a new request.
 
-## Contributions
+## API
+The project uses the [PokéAPI](https://pokeapi.co) for data. This includes basic Pokémon information (name, URL) as well as detailed data such as types, size, and weight.
 
-Contributions are welcome! If you want to add a new feature or fix a bug, please submit a pull request or open an issue.
+## Improvements
+- **Add more generations**: Currently, only the first 151 Pokémon are displayed. The project could be expanded to include later generations.
+- **Search and filter**: Add a search or filter function to make it easier to find specific Pokémon.
+- **Design improvements**: The layout and styling of the Pokedex could be improved to enhance the user experience.
 
 ## License
-
 This project is licensed under the MIT License. For more information, see the `LICENSE` file.
+
+## Acknowledgments
+A big thank you to the developers of [PokéAPI](https://pokeapi.co) for providing the data that made this project possible.
 
